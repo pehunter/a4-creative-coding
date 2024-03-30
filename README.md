@@ -1,12 +1,10 @@
 Assignment 4 - Creative Coding: Interactive Multimedia Experiences
 ===
 
-Due: October 2nd, by 11:59 AM.
-
 For this assignment we will focus on client-side development using popular audio/graphics/visualization technologies. The goal of this assignment is to refine our JavaScript knowledge while exploring the multimedia capabilities of the browser.
 
-[WebAudio / Canvas Tutorial](https://github.com/cs-4241-2023/cs4241-2023.github.io/blob/main/using.webaudio_and_canvas.md)  
-[SVG + D3 tutorial](https://github.com/cs-4241-2023/cs-4241-2023.github.io/blob/main/using.svg_and_d3.md)  
+[WebAudio / Canvas Tutorial](https://github.com/jmcuneo/cs4241-guides/blob/main/using.webaudio_and_canvas.md)  
+[SVG + D3 tutorial](https://github.com/jmcuneo/cs4241-guides/blob/main/using.svg_and_d3.md)  
 
 Baseline Requirements
 ---
@@ -26,7 +24,7 @@ Your application is required to implement the following functionalities:
 The interactive experience should possess a reasonable level of complexity. Some examples:
 ### Three.js
 - A generative algorithm creates simple agents that move through a virtual world. Your interface controls the behavior / appearance of these agents.
-- A simple 3D game... you really want this to be a simple as possible or it will be outside the scope of this assignment.
+- A simple 3D game. You really want this to be a simple as possible or it will be outside the scope of this assignment.
 - An 3D audio visualization of a song of your choosing. User interaction should control aspects of the visualization. 
 ### Canvas
 - Implement a generative algorithm such as [Conway's Game of Life](https://bitstorm.org/gameoflife/) (or 1D cellular automata) and provide interactive controls. Note that the Game of Life has been created by 100s of people using `<canvas>`; we'll be checking to ensure that your implementation is not a copy of these.
