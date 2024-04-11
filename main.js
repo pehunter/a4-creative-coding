@@ -11,7 +11,7 @@ document.body.appendChild( renderer.domElement );
 
 function createLights() {
     // Create one point light and add it to the scene
-    const pointLight = new THREE.PointLight( 0xcccccc, 10 )  
+    const pointLight = new THREE.PointLight( 0xcccccc, 40 )
 
     // Set the point light's position
     pointLight.position.z = 100
@@ -24,7 +24,9 @@ const geometry = new THREE.BoxGeometry( 1, 1, 1 );
 const material = new THREE.MeshPhongMaterial( { color: 0x007F00, shininess: 2000 } );
 const cube = new THREE.Mesh( geometry, material );
 cube.position.set(1,4,100)
+
 scene.add( cube );
+
 
 camera.position.set( 0, 0, 100 );
 camera.lookAt( 1, 4, 100 );
@@ -41,7 +43,7 @@ createLights();
 // const line = new THREE.Line( geometry, material );
 // scene.add( line );
 // renderer.render( scene, camera );
-
+console.log(cube.position);
 function animate() {
 	requestAnimationFrame( animate );
     cube.rotation.x += 0.01;
